@@ -33,7 +33,7 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-## Loading the data
+## Description of the R Code
 
 
 
@@ -47,15 +47,17 @@ in memory before reading into R. Make sure your computer has enough
 memory (most modern computers should be fine).
 
 * We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.
+2007-02-02. 
 
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
 
 * Note that in this dataset missing values are coded as `?`.
+
+*The code assumes Data//exdata-data-household_power_consumption//household_power_consumption.txt 
+would be created in the working directory where the data file would be stored .
+
+
+* All R files have the commom data processing step where the data is extracted from the data file and filtered to desired range of the data. 
+
 
 
 ## Making Plots
@@ -68,28 +70,6 @@ using the base plotting system.
 First you will need to fork and clone the following GitHub repository:
 [https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1)
 
-
-For each plot you should
-
-* Construct the plot and save it to a PNG file with a width of 480
-pixels and a height of 480 pixels.
-
-* Name each of the plot files as `plot1.png`, `plot2.png`, etc.
-
-* Create a separate R code file (`plot1.R`, `plot2.R`, etc.) that
-constructs the corresponding plot, i.e. code in `plot1.R` constructs
-the `plot1.png` plot. Your code file **should include code for reading
-the data** so that the plot can be fully reproduced. You should also
-include the code that creates the PNG file.
-
-* Add the PNG file and R code file to your git repository
-
-When you are finished with the assignment, push your git repository to
-GitHub so that the GitHub version of your repository is up to
-date. There should be four PNG files and four R code files.
-
-
-The four plots that you will need to construct are shown below. 
 
 
 ### Plot 1
