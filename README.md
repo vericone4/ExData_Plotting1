@@ -33,11 +33,11 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-<<<<<<< HEAD
-## Description of the R Code
-=======
+
+
+
 ## Description of the R code submitted for the assignment
->>>>>>> 7c8f30c4307505245a96a1aba39679d2554c6347
+
 
 
 * The dataset has 2,075,259 rows and 9 columns. First
@@ -51,7 +51,7 @@ memory (most modern computers should be fine).
 
 * Note that in this dataset missing values are coded as `?`.
 
-<<<<<<< HEAD
+
 *The code assumes Data//exdata-data-household_power_consumption//household_power_consumption.txt 
 would be created in the working directory where the data file would be stored .
 
@@ -59,17 +59,9 @@ would be created in the working directory where the data file would be stored .
 * All R files have the commom data processing step where the data is extracted from the data file and filtered to desired range of the data. 
 
 
-=======
-* The code assumes Data//exdata-data-household_power_consumption//household_power_consumption.txt
-would be created in the working directory where the data file would be stored.
->>>>>>> 7c8f30c4307505245a96a1aba39679d2554c6347
 
 
-* All R files have the commom data processing step where the data is extracted from the data file and filtered to get
-desired range of the data.
 
-
-<<<<<<< HEAD
 =======
 ## Making Plots
 
@@ -78,7 +70,7 @@ varies over a 2-day period in February, 2007.
 
 
 
->>>>>>> 7c8f30c4307505245a96a1aba39679d2554c6347
+
 
 ### Plot 1
 
